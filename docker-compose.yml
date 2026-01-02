@@ -1,0 +1,68 @@
+version: "3.9"
+
+services:
+  rabbitmq:
+    image: rabbitmq:3.12-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: appuser
+      RABBITMQ_DEFAULT_PASS: apppass
+    depends_on: [keycloak]
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "status"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:21.1.1
+    command: start-dev --import-realm
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    volumes:
+      - ./keycloak:/opt/keycloak/data/import
+    ports:
+      - "8080:8080"
+#    healthcheck:
+#      test: ["CMD-SHELL", "exec 3<>/dev/tcp/localhost/8080 && echo -e 'GET /health/ready HTTP/1.1\\r\\nHost: localhost\\r\\nConnection: close\\r\\n\\r\\n' >&3 && cat <&3 | grep -q '200 OK'"]
+#      interval: 5s
+#      timeout: 5s
+#      retries: 30
+
+  worker:
+    build:
+      context: .
+      dockerfile: Worker/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      #keycloak:
+        #condition: service_healthy
+    environment:
+      RabbitMq__Host: rabbitmq
+      RabbitMq__Username: appuser
+      RabbitMq__Password: apppass
+      RabbitMq__Queue: source-queue
+      RabbitMq__Dlq: source-dlq
+      Api__BaseUrl: http://api:8080
+      Auth__Authority: http://keycloak:8080/realms/demo
+      Auth__ClientId: worker
+      Auth__ClientSecret: worker-secret
+
+  api:
+    build:
+      context: .
+      dockerfile: Api/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      #keycloak:
+        #condition: service_healthy
+    environment:
+      RabbitMq__Host: rabbitmq
+      RabbitMq__Username: appuser
+      RabbitMq__Password: apppass
