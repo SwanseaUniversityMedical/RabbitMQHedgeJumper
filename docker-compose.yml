@@ -18,7 +18,12 @@ services:
       start_period: 10s
 
   keycloak:
-    image: quay.io/keycloak/keycloak:21.1.1
+    image: quay.io/keycloak/keycloak:24.0
+#    entrypoint: [ "/bin/bash", "-c" ]
+#    command: >
+#      "/opt/keycloak/bin/kc.sh build --health-enabled=true &&
+#       /opt/keycloak/bin/kc.sh start-dev --import-realm"
+#       /opt/keycloak/bin/kc.sh start --optimized --import-realm"
     command: start-dev --import-realm
     environment:
       KEYCLOAK_ADMIN: admin
@@ -27,19 +32,19 @@ services:
       - ./keycloak:/opt/keycloak/data/import
     ports:
       - "8080:8080"
-#    healthcheck:
-#      test: ["CMD-SHELL", "exec 3<>/dev/tcp/localhost/8080 && echo -e 'GET /health/ready HTTP/1.1\\r\\nHost: localhost\\r\\nConnection: close\\r\\n\\r\\n' >&3 && cat <&3 | grep -q '200 OK'"]
-#      interval: 5s
-#      timeout: 5s
-#      retries: 30
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health/ready"]
+      interval: 15s
+      timeout: 2s
+      retries: 15
 
   worker:
     build:
       context: .
       dockerfile: Worker/Dockerfile
-    depends_on:
-      rabbitmq:
-        condition: service_healthy
+    depends_on: [ api ]
+      #rabbitmq:
+      #  condition: service_healthy
       #keycloak:
         #condition: service_healthy
     environment:
@@ -60,8 +65,8 @@ services:
     depends_on:
       rabbitmq:
         condition: service_healthy
-      #keycloak:
-        #condition: service_healthy
+#      keycloak:
+#        condition: service_healthy
     environment:
       RabbitMq__Host: rabbitmq
       RabbitMq__Username: appuser

@@ -5,7 +5,9 @@ using Microsoft.Extensions.Configuration;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-
+Console.WriteLine("Application starting - delay 30 seconds");
+Console.WriteLine("Because can not get the healthcheck for Keycloak working ?????");
+await Task.Delay(TimeSpan.FromSeconds(30));
 
 var cfg = new ConfigurationBuilder()
     .SetBasePath(Directory.GetCurrentDirectory())
@@ -51,10 +53,6 @@ var authClient = new HttpClient
     BaseAddress = new Uri(cfg["Auth:Authority"]!)
 };
 var token = await GetAccessTokenAsync(authClient, cfg);
-
-Console.WriteLine("Token");
-Console.WriteLine(token);
-
 
 var http = new HttpClient
 {
