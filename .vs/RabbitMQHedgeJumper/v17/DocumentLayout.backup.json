@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2FFCFE2-2999-4F01-AC99-1C9C1951FF20}|Api\\Api.csproj|c:\\users\\simon\\source\\repos\\rabbitmqhedgejumper\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E2FFCFE2-2999-4F01-AC99-1C9C1951FF20}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2FFCFE2-2999-4F01-AC99-1C9C1951FF20}|Api\\Api.csproj|c:\\users\\simon\\source\\repos\\rabbitmqhedgejumper\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2FFCFE2-2999-4F01-AC99-1C9C1951FF20}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91A66EA0-D983-4D1A-9D53-7C99AE6AB54C}|Worker\\Worker.csproj|c:\\users\\simon\\source\\repos\\rabbitmqhedgejumper\\worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91A66EA0-D983-4D1A-9D53-7C99AE6AB54C}|Worker\\Worker.csproj|solutionrelative:worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91A66EA0-D983-4D1A-9D53-7C99AE6AB54C}|Worker\\Worker.csproj|c:\\users\\simon\\source\\repos\\rabbitmqhedgejumper\\worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{91A66EA0-D983-4D1A-9D53-7C99AE6AB54C}|Worker\\Worker.csproj|solutionrelative:worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|NewFolder1{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\keycloak\\realm-export.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|NewFolder1{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:keycloak\\realm-export.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\run.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:run.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,93 +42,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "realm-export.json",
-              "DocumentMoniker": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\keycloak\\realm-export.json",
-              "RelativeDocumentMoniker": "keycloak\\realm-export.json",
-              "ToolTip": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\keycloak\\realm-export.json",
-              "RelativeToolTip": "keycloak\\realm-export.json",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-01T21:02:29.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "run.bat",
-              "DocumentMoniker": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\run.bat",
-              "RelativeDocumentMoniker": "run.bat",
-              "ToolTip": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\run.bat",
-              "RelativeToolTip": "run.bat",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\.gitignore",
+              "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
-              "WhenOpened": "2026-01-01T20:33:53.508Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-02T09:36:05.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\Api\\Program.cs",
-              "RelativeDocumentMoniker": "Api\\Program.cs",
-              "ToolTip": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\Api\\Program.cs",
-              "RelativeToolTip": "Api\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF4AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T20:20:09.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-01-01T20:16:26.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\Worker\\appsettings.json",
-              "RelativeDocumentMoniker": "Worker\\appsettings.json",
-              "ToolTip": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\Worker\\appsettings.json",
-              "RelativeToolTip": "Worker\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-01T20:15:22.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\Api\\appsettings.json",
-              "RelativeDocumentMoniker": "Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\Api\\appsettings.json",
-              "RelativeToolTip": "Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-01T20:15:10.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\Worker\\Program.cs",
-              "RelativeDocumentMoniker": "Worker\\Program.cs",
-              "ToolTip": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\Worker\\Program.cs",
-              "RelativeToolTip": "Worker\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAkwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T20:03:42.374Z",
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\simon\\source\\repos\\RabbitMQHedgeJumper\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-01-02T09:35:28.781Z",
               "EditorCaption": ""
             }
           ]
